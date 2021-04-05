@@ -1,349 +1,360 @@
-body {
-    margin: 35px;
-}
-
-.conteiner {
-    position: relative;
-}
-
-.content {
-    width: 1440px;
-    height: 500px;
-    background-color: #ED4C5C;
-}
-
-.text_content_title {
-    position: absolute;
-    width: 445px;
-    height: 107px;
-    margin: 122px 830px 271px 165px;
-    font-family: Lato;
-    font-size: 36px;
-    line-height: 43px;
-    color: #FFFFFF;
-}
-
-.content_text {
-    position: absolute;
-    width: 445px;
-    height: 64px;
-    margin: 253px 830px 183px 165px;
-    font-family: Lato;
-    font-size: 14px;
-    line-height: 140%;
-    text-align: justify;
-    color: #FFFFFF;
-}
-
-.img_content {
-    position: absolute;
-    width: 533px;
-    height: 311px;
-    margin: 94px 216px 95px 691px;
-}
-
-.content_logo_1 {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    margin: 357px 1245px 111px 163px;
-}
-
-.content_logo_2 {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    margin: 357px 1190px 111px 218px;
-}
-
-.content_logo_3 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    margin: 361px 1143px 115px 273px;
-}
-
-.contact_form {
-    width: 1440px;
-    height: 500px;
-    background-color: #FFFFFF;
-}
-
-.content_contact {
-    position: absolute;
-    width: 445px;
-    height: 107px;
-    margin: 117px 819px 276px 176px;
-    font-family: Lato;
-    font-size: 36px;
-    line-height: 43px;
-    color: #000000;
-}
-
-.content_text2 {
-    position: absolute;
-    width: 434px;
-    height: 64px;
-    margin: 213px 813px 223px 176px;
-    font-family: Lato;
-    font-size: 14px;
-    line-height: 140%;
-    text-align: justify;
-    color: #000000;
-}
-
-.content_form {
-    position: absolute;
-    width: 540px;
-    height: 305px;
-    margin: 117px 165px 78px 735px;
-    background-color: silver;
-}
-
-.last {
-    position: absolute;
-    width: 255px;
-    height: 60px;
-    border: 1px solid #333333;
-    box-sizing: border-box;
-    border-radius: 6px;
-    margin: 117px 165px 323px 1020px;
-    padding: 21px 149px 20px 31px;
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgba(19, 39, 67, 0.5);
-}
-
-.first {
-    position: absolute;
-    width: 255px;
-    height: 60px;
-    border: 1px solid #333333;
-    box-sizing: border-box;
-    border-radius: 6px;
-    margin: 117px 450px 323px 735px;
-    padding: 21px 146px 20px 31px;
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgba(19, 39, 67, 0.5);
-}
-
-.phone {
-    position: absolute;
-    width: 540px;
-    height: 60px;
-    border: 1px solid #333333;
-    box-sizing: border-box;
-    border-radius: 6px;
-    margin: 201px 165px 239px 735px;
-    padding: 21px 403px 20px 31px;
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgba(19, 39, 67, 0.5);
-}
-
-.selected {
-    position: absolute;
-    width: 540px;
-    height: 60px;
-    border: 1px solid #333333;
-    box-sizing: border-box;
-    border-radius: 6px;
-    margin: 285px 165px 155px 735px;
-    padding: 21px 4px 20px 31px;
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 19px;
-    color: rgba(19, 39, 67, 0.5);
-}
-
-select {
-    background: url(images/icon-4.png) no-repeat right #ffffff;
-    -webkit-appearance: none;
-    background-position-x: 95%;
-}
-
-.select-img {
-    position: absolute;
-    margin: 308px 191px 178px 1235px;
-}
-
-.submit {
-    position: absolute;
-    width: 160px;
-    height: 50px;
-    background: #ED4C5C;
-    border: 1.5px solid #ED4C5C;
-    box-sizing: border-box;
-    border-radius: 6px;
-    margin: 372px 545px 78px 735px;
-    padding: 17px 34px;
-    font-family: Lato;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
-
-.content_element {
-    position: absolute;
-    width: 1440px;
-    height: 435px;
-    margin-top: 45px;
-    background-color: #FAFAFA;
-}
-
-.element_address {
-    position: absolute;
-    width: 259px;
-    height: 264px;
-    margin: 85px 1020px 86px 161px;
-}
-
-.addres_title {
-    position: absolute;
-    width: 65px;
-    height: 22px;
-    font-family: Lato;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #101010;
-    margin: 0px 189px 242px 5px;
-}
-
-.address_text {
-    position: absolute;
-    width: 254px;
-    height: 54px;
-    font-family: Lato;
-    font-size: 12px;
-    line-height: 150%;
-    color: #101010;
-    margin: 55px 0px 155px 5px;
-}
-
-.element_services {
-    position: absolute;
-    width: 254px;
-    height: 164px;
-    margin: 85px 736px 186px 460px;
-}
-
-.services_title {
-    position: absolute;
-    width: 67px;
-    height: 22px;
-    font-family: Lato;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    color: #101010;
-    margin: 0px 187px 142px 0px;
-}
-
-.services_text {
-    position: absolute;
-    width: 254px;
-    height: 114px;
-    font-family: Lato;
-    font-size: 12px;
-    line-height: 160%;
-    text-transform: capitalize;
-    color: #000000;
-    margin-top: 50px;
-}
-
-.element_get-in-touch {
-    position: absolute;
-    width: 122px;
-    height: 128px;
-    margin: 85px 584px 222px 734px;
-}
-
-.get-in-touch-title {
-    position: absolute;
-    width: 101px;
-    height: 22px;
-    font-family: Lato;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #101010;
-    margin: 0px 21px 106px 0px;
-}
-
-.get-in-touch-text {
-    position: absolute;
-    width: 122px;
-    height: 14px;
-    font-family: Lato;
-    font-size: 12px;
-    line-height: 14px;
-    color: #101010;
-    margin: 55px 0px 59px;
-}
-
-.get-in-touch-number {
-    position: absolute;
-    width: 96px;
-    height: 14px;
-    font-family: Lato;
-    font-size: 12px;
-    line-height: 14px;
-    color: #121212;
-    margin: 80px 26px 34px 0px;
-}
-
-.icon-1 {
-    position: absolute;
-    margin: 115.17px 111.5px 1.17px 4.08px;
-}
-
-.icon-2 {
-    position: absolute;
-    margin: 115.17px 92.5px 1.64px 27.17px;
-}
-
-.icon-3 {
-    position: absolute;
-    margin: 115.74px 56.58px 1.79px 52.58px;
-}
-
-.we-support-title {
-    position: absolute;
-    width: 100px;
-    height: 22px;
-    font-family: Lato;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    color: #101010;
-    margin: 85px 322px 328px 1022px;
-}
-
-.elenent_img {
-    position: absolute;
-    width: 216px;
-    height: 31px;
-    margin: 140px 196px 264px 1028px;
-}
-
-.element_copyright {
-    position: absolute;
-    width: 155px;
-    height: 14px;
-    margin: 335px 1124px 86px 161px;
-}
-
-.copyright-text {
-    font-family: Lato;
-    font-size: 12px;
-    line-height: 14px;
-    color: #101010;
-}
+        body {
+            margin: 35px;
+        }
+        
+        html {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .conteiner {
+            position: relative;
+        }
+        
+        .content {
+            width: 1440px;
+            height: 500px;
+            background-color: #ED4C5C;
+        }
+        
+        .text_content_title {
+            position: absolute;
+            width: 445px;
+            height: 107px;
+            margin: 122px 830px 271px 165px;
+            font-family: Lato;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+        
+        .content_text {
+            position: absolute;
+            width: 445px;
+            height: 64px;
+            margin: 253px 830px 183px 165px;
+            font-family: Lato;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: justify;
+            color: #FFFFFF;
+        }
+        
+        .img_content {
+            position: absolute;
+            width: 533px;
+            height: 311px;
+            margin: 94px 216px 95px 691px;
+        }
+        
+        .content_logo_1 {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            margin: 357px 1245px 111px 163px;
+        }
+        
+        .content_logo_2 {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            margin: 357px 1190px 111px 218px;
+        }
+        
+        .content_logo_3 {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            margin: 361px 1143px 115px 273px;
+        }
+        
+        .contact_form {
+            width: 1440px;
+            height: 500px;
+            background-color: #FFFFFF;
+        }
+        
+        .content_contact {
+            position: absolute;
+            width: 445px;
+            height: 107px;
+            margin: 117px 819px 276px 176px;
+            font-family: Lato;
+            font-size: 36px;
+            line-height: 43px;
+            color: #000000;
+        }
+        
+        .content_text2 {
+            position: absolute;
+            width: 434px;
+            height: 64px;
+            margin: 213px 813px 223px 176px;
+            font-family: Lato;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: justify;
+            color: #000000;
+        }
+        
+        .content_form {
+            position: absolute;
+            width: 540px;
+            height: 305px;
+            margin: 117px 165px 78px 735px;
+            background-color: silver;
+        }
+        
+        .last {
+            position: absolute;
+            width: 255px;
+            height: 60px;
+            border: 1px solid #333333;
+            box-sizing: border-box;
+            border-radius: 6px;
+            margin: 117px 165px 323px 1020px;
+            padding: 21px 149px 20px 31px;
+            font-family: Lato;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(19, 39, 67, 0.5);
+        }
+        
+        .first {
+            position: absolute;
+            width: 255px;
+            height: 60px;
+            border: 1px solid #333333;
+            box-sizing: border-box;
+            border-radius: 6px;
+            margin: 117px 450px 323px 735px;
+            padding: 21px 146px 20px 31px;
+            font-family: Lato;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(19, 39, 67, 0.5);
+        }
+        
+        .phone {
+            position: absolute;
+            width: 540px;
+            height: 60px;
+            border: 1px solid #333333;
+            box-sizing: border-box;
+            border-radius: 6px;
+            margin: 201px 165px 239px 735px;
+            padding: 21px 403px 20px 31px;
+            font-family: Lato;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(19, 39, 67, 0.5);
+        }
+        
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        
+        .selected {
+            position: absolute;
+            width: 540px;
+            height: 60px;
+            border: 1px solid #333333;
+            box-sizing: border-box;
+            border-radius: 6px;
+            margin: 285px 165px 155px 735px;
+            padding: 21px 4px 20px 31px;
+            font-family: Lato;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(19, 39, 67, 0.5);
+        }
+        
+        select {
+            background: url(images/icon-4.png) no-repeat right #ffffff;
+            -webkit-appearance: none;
+            background-position-x: 95%;
+        }
+        
+        .select-img {
+            position: absolute;
+            margin: 308px 191px 178px 1235px;
+        }
+        
+        .submit {
+            position: absolute;
+            width: 160px;
+            height: 50px;
+            background: #ED4C5C;
+            border: 1.5px solid #ED4C5C;
+            box-sizing: border-box;
+            border-radius: 6px;
+            margin: 372px 545px 78px 735px;
+            padding: 17px 34px;
+            font-family: Lato;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+        
+        .content_element {
+            position: absolute;
+            width: 1440px;
+            height: 435px;
+            margin-top: 45px;
+            background-color: #FAFAFA;
+        }
+        
+        .element_address {
+            position: absolute;
+            width: 259px;
+            height: 264px;
+            margin: 85px 1020px 86px 161px;
+        }
+        
+        .addres_title {
+            position: absolute;
+            width: 65px;
+            height: 22px;
+            font-family: Lato;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #101010;
+            margin: 0px 189px 242px 5px;
+        }
+        
+        .address_text {
+            position: absolute;
+            width: 254px;
+            height: 54px;
+            font-family: Lato;
+            font-size: 12px;
+            line-height: 150%;
+            color: #101010;
+            margin: 55px 0px 155px 5px;
+        }
+        
+        .element_services {
+            position: absolute;
+            width: 254px;
+            height: 164px;
+            margin: 85px 736px 186px 460px;
+        }
+        
+        .services_title {
+            position: absolute;
+            width: 67px;
+            height: 22px;
+            font-family: Lato;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #101010;
+            margin: 0px 187px 142px 0px;
+        }
+        
+        .services_text {
+            position: absolute;
+            width: 254px;
+            height: 114px;
+            font-family: Lato;
+            font-size: 12px;
+            line-height: 160%;
+            text-transform: capitalize;
+            color: #000000;
+            margin-top: 50px;
+        }
+        
+        .element_get-in-touch {
+            position: absolute;
+            width: 122px;
+            height: 128px;
+            margin: 85px 584px 222px 734px;
+        }
+        
+        .get-in-touch-title {
+            position: absolute;
+            width: 101px;
+            height: 22px;
+            font-family: Lato;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #101010;
+            margin: 0px 21px 106px 0px;
+        }
+        
+        .get-in-touch-text {
+            position: absolute;
+            width: 122px;
+            height: 14px;
+            font-family: Lato;
+            font-size: 12px;
+            line-height: 14px;
+            color: #101010;
+            margin: 55px 0px 59px;
+        }
+        
+        .get-in-touch-number {
+            position: absolute;
+            width: 96px;
+            height: 14px;
+            font-family: Lato;
+            font-size: 12px;
+            line-height: 14px;
+            color: #121212;
+            margin: 80px 26px 34px 0px;
+        }
+        
+        .icon-1 {
+            position: absolute;
+            margin: 115.17px 111.5px 1.17px 4.08px;
+        }
+        
+        .icon-2 {
+            position: absolute;
+            margin: 115.17px 92.5px 1.64px 27.17px;
+        }
+        
+        .icon-3 {
+            position: absolute;
+            margin: 115.74px 56.58px 1.79px 52.58px;
+        }
+        
+        .we-support-title {
+            position: absolute;
+            width: 100px;
+            height: 22px;
+            font-family: Lato;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #101010;
+            margin: 85px 322px 328px 1022px;
+        }
+        
+        .elenent_img {
+            position: absolute;
+            width: 216px;
+            height: 31px;
+            margin: 140px 196px 264px 1028px;
+        }
+        
+        .element_copyright {
+            position: absolute;
+            width: 155px;
+            height: 14px;
+            margin: 335px 1124px 86px 161px;
+        }
+        
+        .copyright-text {
+            font-family: Lato;
+            font-size: 12px;
+            line-height: 14px;
+            color: #101010;
+        }
