@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW #1 "Git"</title>
+</head>
+<style>
+    .main{
+        width: 600px;
+        height: 100px;
+    }
+    .list--base{
+        background-color: rgb(245, 219, 219);
+    }
+     .definition{
+        border-top: solid black 4px;
+        border-bottom: solid black 4px;
+        background-color: rgb(207, 203, 203);
+    }
+    .list--advanced {
+        background-color: rgb(150, 148, 148);
+    }
+    .list--advancedSSH {
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+    }
+
+</style>
+<body>
+    <div class="list--base">
+    <h1>Base</h1>
+<ul>
+    <li> <b> git config --global user.name blabla</b> <br> Встановлює ім'я, яке буде відображатися в поле автора у виконуваних ним комітах</li>
+    <li> <b> git config --global user.email blabal@bla</b> <br> Встановлює адресу електронної пошти, яка буде відображатися в інформації про виконувані коміти</li>
+    <li> <b> git init</b> <br> Створює новий локальний репозиторій з заданим ім'ям </li>
+    <li> <b> git status</b> <br> Перераховує всі нові або змінені файли, які потребують фіксації</li>
+    <li> <b> git add</b> <br> Індексує вказаний файл для подальших комітів</li>
+    <li> <b> git commit</b> <br> Фіксує проіндексовані зміни і зберігає їх в історію версій</li>
+    <li> <b> git log</b> <br> Історія комітів для поточної гілки</li>
+    <li> <b> git checkout</b> <br> Перемикається на обрану гілку і оновлює робочу директорію до її стану</li>
+    <li> <b> git branch</b> <br> Створює нову гілку</li>
+    <li> <b> git push</b> <br> Використовується для вивантаження вмісту локального сховища в віддалений репозиторій.</li>
+    <li> <b> git pull</b>  <br> Завантажує історію з віддаленого сховища та об'єднує її з локальної</li>
+    <li> <b> git merge</b> <br> Вносить зміни з гілки віддаленого сховища в поточну гілку локального сховища</li>
+    <li> <b> git clone</b> <br> Викачує репозиторій разом з усією його історією змін</li>
+</ul>
+</div>
+
+<div class="definition">
+<h2>Gitignore</h2>
+<p class="main"> <b> Gitignore</b> це файл який завжди зберігається в проекті. Він містить правила виключення, кожен з яких має відносний шлях. Він додається і зберігається в самому репозиторії. Таким чином, будь-який інший розробник,який викачав собі проект матиме ці правила і не зробить помилку, додавши непотрібні файли.</p>
+</div>
+
+
+<div class="list--advanced">
+<h1>Advanced</h1>
+<ul>
+    <li><b>git revert</b> - За допомогю цієї команди можна скасувати операцію без втрати історії коммітов</li>
+    <li><b>git reset</b> - За допомогю цієї команди можна скасувати операцію</li>
+    <li><b>git rebase</b> - Переміщує історію всієї гілки поверх іншої, переписуючи історію проекту новими коммітов.</li>
+    <li><b>git cherry-pick</b> - Використовується для перенесення окремих коммітов з одного місця сховища в інше</li>
+    <li><b>git stash</b> - Бере  зміни, підготовлені і непідготовлені до фіксації, зберігає їх для подальшого використання і прибирає з робочою області.</li>
+</ul>
+<div class="list--advancedSSH">
+<h3>Підключення Github через SSH</h3>
+<img src="ssh.jpg" alt="Підключеня Github через SSH">
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="main.css">
+    <title>HW#2</title>
+</head>
+<style>
+    .conteiner {
+        width: 650px;
+        height: 800px;
+        padding: 20px;
+        background-color: rgb(178, 233, 233);
+        margin: auto;
+        text-align: center;
+        border-style: dashed;
+        border-color: rgb(50, 50, 51);
+        border-width: 4px;
+    }
+    
+    .table--data {
+        margin: auto;
+    }
+</style>
+
+<body>
+    <div class="conteiner">
+
+        <table class="table--data" border="2px">
+            <tr>
+                <caption>
+                    <b>HomeWork#2</b>
+                </caption>
+                <th>Ім'я</th>
+                <th>Прізвище</th>
+                <th>Телефон</th>
+                <th>E-mail</th>
+            </tr>
+            <tr>
+                <td>Михайло</td>
+                <td>Возний</td>
+                <td>0634586987</td>
+                <td>misha0322@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Володимир</td>
+                <td>Рудий</td>
+                <td>0685236585</td>
+                <td>rudia//@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Василь</td>
+                <td>Кондрвтюк</td>
+                <td>0995611756</td>
+                <td>vasylkondratiuk@gmail.com</td>
+                <tr>
+                    <tr>
+                        <td>Степан</td>
+                        <td>Чайковський</td>
+                        <td>0983415465</td>
+                        <td>stiopachay@gmail.com</td>
+                    </tr>
+
+        </table>
+
+
+
+
+        <br>
+        <div class="name">
+            <p class="text-title"> <b> Введіть ваше ім'я та прізвище</b></p>
+            <form action="mailto:marta.dzoba2001@gmail.com" enctype="text/plain"></form>
+            <div><input type="text" name="username" placeholder="Введіть ваше ім'я"></div>
+            <div><input type="text" name="user surname" placeholder="Введіть ваше Прізвище"></div>
+        </div>
+
+
+        <br>
+        <div class="gender">
+            <label for="Choose a gender"><b>Виберіть стать:</b></label>
+            <div><input type="radio" checked name="sex selection" value="Woman">Жіноча</div>
+            <div><input type="radio" name="sex selection" value="MEN">Чоловіча</div>
+        </div>
+
+        <br>
+        <div class="comentar">
+            <textarea name="write your question" id="" cols="30" rows="10" placeholder="Напишіть ваше питання"></textarea>
+        </div>
+
+        <br>
+        <div class="city">
+            <select>
+                <option value="select" selected disabled>Вибрати місто</option>
+                <option value="1">Львів</option>
+                <option value="2">Харків</option>
+                <option value="3">Київ</option>
+                <option value="4">Чернівці</option>
+        </select>
+        </div>
+        <br>
+        <div class="lenguage">
+            <br>
+            <input type="checkbox"> Українська
+            <br>
+            <input type="checkbox"> Російська
+            <br>
+            <input type="checkbox"> English
+        </div>
+        <br>
+        <div class="button">
+            <button type="submit">Відправити</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
