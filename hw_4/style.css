@@ -157,6 +157,11 @@
         margin: 0;
     }
     
+    input,
+    select {
+        outline: 0px;
+    }
+    
     .selected {
         position: absolute;
         width: 540px;
