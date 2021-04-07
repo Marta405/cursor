@@ -173,7 +173,7 @@
     }
     
     select {
-        background: url(images/icon-4.png) no-repeat right #ffffff;
+        background: url(images/icon-4.svg) no-repeat right #ffffff;
         -webkit-appearance: none;
         background-position-x: 95%;
     }
