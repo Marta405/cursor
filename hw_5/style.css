@@ -4,7 +4,7 @@
 }
 
 .conteiner {
-    width: 1600px;
+    width: 1500px;
     overflow: hidden;
 }
 
@@ -98,6 +98,11 @@
 
 a {
     text-decoration: none;
+    color: #4B5D68;
+}
+
+.header-navigation a:first-child {
+    color: #212353;
 }
 
 .header-navigation {
@@ -113,7 +118,6 @@ a {
     font-style: normal;
     font-size: 16px;
     line-height: 160%;
-    color: #4B5D68;
 }
 
 .header-buttom {
@@ -331,7 +335,7 @@ a {
 .three_title2 {
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 18px;
     line-height: 160%;
     display: flex;
@@ -483,7 +487,7 @@ a {
     border-radius: 50px;
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 16px;
     line-height: 160%;
     align-items: center;
@@ -511,7 +515,7 @@ a {
     margin-bottom: 65px;
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 20px;
     line-height: 160%;
     color: #212353;
@@ -589,7 +593,7 @@ button:hover {
 .footer_element2-title {
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 16px;
     line-height: 160%;
     color: #212353;
