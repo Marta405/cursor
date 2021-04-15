@@ -322,7 +322,7 @@ input {
     background: #F5F5F7;
     border-radius: 8px;
     border: none;
-    background-image: url(image/Vector\ \(4\).svg);
+    background-image: url(image/Vector\(4\).svg);
     background-repeat: no-repeat;
     background-position: 10px 10px;
     text-align: center;
@@ -348,7 +348,7 @@ input {
     border: none;
     outline: none;
     appearance: none;
-    background-image: url(image/Vector\ \(5\).svg);
+    background-image: url(image/Vector\(5\).svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 20px;
@@ -466,7 +466,7 @@ input {
     font-size: 0.8em;
     font-weight: 700;
     appearance: none;
-    background-image: url(image/Vector\ \(5\).svg);
+    background-image: url(image/Vector\(5\).svg);
     background-repeat: no-repeat;
     background-position-x: 80%;
     background-position-y: center;
