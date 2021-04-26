@@ -237,16 +237,16 @@
         margin-top: 40px;
     }
     
-    @media (max-width:1000px) {
+    @media (max-width:760px) {
         .col-4 {
-            max-width: 50%;
+            max-width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 20px;
         }
         .row {
-            margin-right: -77px;
+            display: block;
         }
     }
     
@@ -260,7 +260,6 @@
         }
         .row {
             display: block;
-            margin-right: -77px;
         }
     }
     
