@@ -1,0 +1,17 @@
+.container {
+  background-color: aqua;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.nav__link {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+nav.nav__logo {
+  width: 30%;
+}
