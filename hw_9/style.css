@@ -28,6 +28,12 @@
     button {
         border: none;
         background: none;
+        outline: 0px;
+    }
+    
+    input {
+        outline: 0px;
+        border: none;
     }
     
     a {
@@ -239,6 +245,9 @@
             justify-content: center;
             margin-bottom: 20px;
         }
+        .row {
+            margin-right: -77px;
+        }
     }
     
     @media (max-width:720px) {
@@ -251,6 +260,7 @@
         }
         .row {
             display: block;
+            margin-right: -77px;
         }
     }
     
